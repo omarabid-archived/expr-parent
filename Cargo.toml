@@ -1,0 +1,15 @@
+[package]
+name = "expr-parent"
+version = "0.1.0"
+authors = ["Abid Omar <contact@omarabid.com>"]
+edition = "2018"
+license = "MIT"
+homepage = "https://omarabid.com"
+documentation = "https://omarabid.com"
+respository = "https://github.com/omarabid/expr-parent.git"
+description = "Parent repo (expr)"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+expr-child="0.1.0"
